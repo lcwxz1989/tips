@@ -1,0 +1,7 @@
+#some tips for oo program
+1.  good architecture define
+    1.1 declare varible name style  camel-case
+    2.2 one file just for one page or one function, isolate code by file , not by function 
+
+2.  good function
+    2.1 do not change the input varible, if use is ,just get the value for temp
