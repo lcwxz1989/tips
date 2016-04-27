@@ -1,7 +1,10 @@
 #some tips for oo program
-1.  good architecture define
-    1.1 declare varible name style  camel-case
-    2.2 one file just for one page or one function, isolate code by file , not by function 
+1.  good architecture define(好的框架定义)
+    1.1 declare varible name style  camel-case(用驼峰定义变量)
+    2.2 one file just for one page or one function, isolate code by file , not by function(一个文件只实现一个接口，或者一个页面请求，靠文件来隔离代码，不要通过接口名字隔离) 
 
-2.  good function
-    2.1 do not change the input varible, if use is ,just get the value for temp
+2.  good function(好的方法)
+    2.1 do not change the input varible, if use is ,just get the value for temp(不要更改传进来的参数，只改变复制的值)
+    2.2 do not direct use number to check status when number express some other word (不要直接使用状态值，定义成有语意的变量)
+    ep: $status == 1, what's the 1 meanning for?
+    2.3 do not reuse a function interface in two ways(不要复用一个接口在不同的地方，比如app和web，因为端的不同会导致需求的不同，这样接口会越来越大)

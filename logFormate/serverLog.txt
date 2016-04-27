@@ -1,0 +1,4 @@
+#now just for http server
+1.  http server log info is for 
+    1.1 cookie info must and just in that file, do not put into bussiness log
+
