@@ -8,3 +8,10 @@
     2.2 do not direct use number to check status when number express some other word (不要直接使用状态值，定义成有语意的变量)
     ep: $status == 1, what's the 1 meanning for?
     2.3 do not reuse a function interface in two ways(不要复用一个接口在不同的地方，比如app和web，因为端的不同会导致需求的不同，这样接口会越来越大)
+
+3.  good model
+    3.1 Just for myself, just look at the dao directory I can know the design of the system because of getting how many daos the system have(对我自己来说，只看dao一个目录就能知道系统设计的时候雏形,通过看有多少个dao)
+
+4.  db schema
+    4.1 db schema is very importent for business programmer, because of the project is just select or write data to db.
+    4.2 And mark the table create time also is useful, that can make out what is the original for this project,and what is the plus. 
