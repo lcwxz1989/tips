@@ -1,4 +1,7 @@
 #now just for http server
-1.  http server log info is for 
-    1.1 cookie info must and just in that file, do not put into bussiness log
+日志级别
+error:      导致系统不可用错误
+warning:    未顺利返回
+日志格式：
+    时间      traceid     错误级别    错误方法    错误行数    错误字符串(log检索使用)   输出错误(依赖系统返回的错误日志)    输入参数
 
